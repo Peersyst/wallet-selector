@@ -2,7 +2,7 @@ import type {
   InjectedWallet,
   NetworkId,
   WalletBehaviourFactory,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import { NearSnap, NearSnapAccount } from "@near-snap/sdk";
 
 export const snap = new NearSnap();

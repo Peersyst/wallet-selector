@@ -1,6 +1,6 @@
 import { isMobile } from "is-mobile";
 import { SignedTransaction } from "near-api-js/lib/transaction";
-import { isCurrentBrowserSupported, waitFor } from "@near-wallet-selector/core";
+import { isCurrentBrowserSupported, waitFor } from "@peersyst/ws-core";
 
 import type {
   Action,
@@ -10,7 +10,7 @@ import type {
   FunctionCallAction,
   WalletModuleFactory,
   WalletBehaviourFactory,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
 import icon from "./icon";
 import type { InjectedOkx } from "./injected-okx-wallet";

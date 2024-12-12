@@ -1,4 +1,4 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 import { modalState } from "../modal";
 import { resolveAccounts } from "../render-modal";
 import { renderConnectHardwareWallet } from "./ConnectHardwareWallet";
@@ -7,7 +7,7 @@ import { renderLedgerSelectAccount } from "./LedgerSelectAccount";
 import { renderNoLedgerAccountsFound } from "./NoLedgerAccountsFound";
 import { renderWalletConnecting } from "./WalletConnecting";
 import { renderWalletConnectionFailed } from "./WalletConnectionFailed";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { CloseIcon } from "./icons/CloseIcon";
 import { BackArrowIcon } from "./icons/BackArrowIcon";
 import { UpArrowIcon } from "./icons/UpArrowIcon";

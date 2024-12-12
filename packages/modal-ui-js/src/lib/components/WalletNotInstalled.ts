@@ -1,6 +1,6 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 import { modalState } from "../modal";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { renderWhatIsAWallet } from "./WhatIsAWallet";
 import { BackArrowIcon } from "./icons/BackArrowIcon";
 import { CloseIcon } from "./icons/CloseIcon";

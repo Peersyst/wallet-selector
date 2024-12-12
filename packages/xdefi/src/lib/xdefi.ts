@@ -6,8 +6,8 @@ import type {
   WalletBehaviourFactory,
   WalletModuleFactory,
   WalletSelectorStore,
-} from "@near-wallet-selector/core";
-import { waitFor } from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
+import { waitFor } from "@peersyst/ws-core";
 import { isMobile } from "is-mobile";
 import icon from "./icon";
 import type { InjectedXDEFI, NearXDEFI } from "./injected-xdefi";

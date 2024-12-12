@@ -6,9 +6,9 @@ import type {
   Account,
   Action,
   FinalExecutionOutcome,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import icon from "./icon";
-import { waitFor } from "@near-wallet-selector/core";
+import { waitFor } from "@peersyst/ws-core";
 
 declare global {
   interface Window {

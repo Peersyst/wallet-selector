@@ -1,4 +1,4 @@
-# @near-wallet-selector/near-snap
+# @peersyst/ws-near-snap
 
 This is the NEAR Metamask Snap package for NEAR Wallet Selector.
 
@@ -16,17 +16,17 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/near-snap
+yarn add @peersyst/ws-near-snap
 
 # Using NPM.
-npm install @near-wallet-selector/near-snap
+npm install @peersyst/ws-near-snap
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupNearSnap } from "@near-wallet-selector/near-snap";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupNearSnap } from "@peersyst/ws-near-snap";
 
 // Near Snap for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const nearSnap = setupNearSnap({
@@ -56,8 +56,8 @@ https://github.com/here-wallet/near-snap
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupNearSnap } from "@near-wallet-selector/near-snap";
-import SnapIconUrl from "@near-wallet-selector/near-snap/assets/snap-icon.svg";
+import { setupNearSnap } from "@peersyst/ws-near-snap";
+import SnapIconUrl from "@peersyst/ws-near-snap/assets/snap-icon.svg";
 
 const snapWallet = setupNearSnap({ 
   iconUrl: SnapIconUrl 

@@ -1,4 +1,4 @@
-import type { Transaction } from "@near-wallet-selector/core";
+import type { Transaction } from "@peersyst/ws-core";
 import type {
   NearNetwork,
   RamperInstance,

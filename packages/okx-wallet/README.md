@@ -1,4 +1,4 @@
-# @near-wallet-selector/okx-wallet
+# @peersyst/ws-okx-wallet
 
 This is the [OKX Wallet](https://chromewebstore.google.com/detail/%E6%AC%A7%E6%98%93-web3-%E9%92%B1%E5%8C%85/mcohilncbfahbmgdjkbpemcciiolgcge) package for NEAR Wallet Selector.
 
@@ -21,17 +21,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/okx-wallet
+yarn add @peersyst/ws-okx-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/okx-wallet
+npm install @peersyst/ws-okx-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupOKXWallet } from "@near-wallet-selector/okx-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupOKXWallet } from "@peersyst/ws-okx-wallet";
 
 // OKX Wallet for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const okxWallet = setupOKXWallet({
@@ -54,8 +54,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupOKXWallet } from "@near-wallet-selector/okx-wallet";
-import okxIconUrl from "@near-wallet-selector/okx-wallet/assets/okx-wallet.png";
+import { setupOKXWallet } from "@peersyst/ws-okx-wallet";
+import okxIconUrl from "@peersyst/ws-okx-wallet/assets/okx-wallet.png";
 
 const okxWallet = setupOKXWallet({
   iconUrl: okxIconUrl

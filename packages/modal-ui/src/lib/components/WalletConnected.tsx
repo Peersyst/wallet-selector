@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import type { ModuleState } from "@near-wallet-selector/core";
+import type { ModuleState } from "@peersyst/ws-core";
 import { CloseButton } from "./CloseButton";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { ConnectionSuccessIcon } from "./icons/ConnectionSuccessIcon";
 
 interface WalletConnectedProps {

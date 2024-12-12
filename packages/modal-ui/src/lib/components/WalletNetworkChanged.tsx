@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import type { WalletSelector } from "@near-wallet-selector/core";
+import type { WalletSelector } from "@peersyst/ws-core";
 import { ModalHeader } from "./ModalHeader";
 import { BackArrow } from "./BackArrow";
 

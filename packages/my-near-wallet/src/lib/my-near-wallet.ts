@@ -7,8 +7,8 @@ import type {
   Optional,
   Network,
   Account,
-} from "@near-wallet-selector/core";
-import { createAction } from "@near-wallet-selector/wallet-utils";
+} from "@peersyst/ws-core";
+import { createAction } from "@peersyst/ws-wallet-utils";
 import icon from "./icon";
 
 export interface MyNearWalletParams {

@@ -82,7 +82,7 @@ export interface WalletSelector {
   /**
    * Programmatically access wallets and call their methods.
    * It's advised to use `state.modules` if you only need access to `id`, `type` or `metadata` as it avoids initialising.
-   * You can find more information on Wallet {@link https://github.com/near/wallet-selector/blob/main/packages/core/docs/api/wallet.md | here}.
+   * You can find more information on Wallet {@link https://github.com/Peersyst/wallet-selector/blob/main/packages/core/docs/api/wallet.md | here}.
    */
   wallet<Variation extends Wallet = Wallet>(
     id?: string

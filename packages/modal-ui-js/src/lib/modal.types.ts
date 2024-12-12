@@ -1,6 +1,6 @@
-import type { Wallet } from "@near-wallet-selector/core";
-import type { ModuleState } from "@near-wallet-selector/core";
-import type { Subscription } from "@near-wallet-selector/core";
+import type { Wallet } from "@peersyst/ws-core";
+import type { ModuleState } from "@peersyst/ws-core";
+import type { Subscription } from "@peersyst/ws-core";
 
 export type Theme = "dark" | "light" | "auto";
 

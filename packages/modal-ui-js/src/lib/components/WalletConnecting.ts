@@ -1,5 +1,5 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
-import { translate } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
+import { translate } from "@peersyst/ws-core";
 import { CloseIcon } from "./icons/CloseIcon";
 
 export async function renderWalletConnecting(

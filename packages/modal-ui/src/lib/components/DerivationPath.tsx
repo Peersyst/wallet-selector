@@ -4,7 +4,7 @@ import type {
   HardwareWalletAccount,
   Wallet,
   WalletSelector,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import type { ModalOptions } from "../modal.types";
 import type { DerivationPathModalRouteParams } from "./Modal.types";
 import HardwareWalletAccountsForm from "./HardwareWalletAccountsForm";
@@ -12,7 +12,7 @@ import { WalletConnecting } from "./WalletConnecting";
 import { ModalHeader } from "./ModalHeader";
 import { BackArrow } from "./BackArrow";
 import { LedgerDeviceIcon } from "./icons/LedgerDeviceIcon";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { UpArrowIcon } from "./icons/UpArrowIcon";
 import { DownArrowIcon } from "./icons/DownArrowIcon";
 

@@ -1,4 +1,4 @@
-import type { AccountImportData } from "@near-wallet-selector/core";
+import type { AccountImportData } from "@peersyst/ws-core";
 import { secretbox } from "@noble/ciphers/salsa";
 import { randomBytes } from "@noble/hashes/utils";
 import { base64 } from "ethers/lib/utils";

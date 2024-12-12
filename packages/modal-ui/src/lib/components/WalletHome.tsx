@@ -5,10 +5,10 @@ import type {
   InjectedWallet,
   ModuleState,
   WalletSelector,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import { ModalHeader } from "./ModalHeader";
 import { BackArrow } from "./BackArrow";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { QRIcon } from "./icons/QRIcon";
 import { LinkIcon } from "./icons/LinkIcon";
 import { KeyIcon } from "./icons/KeyIcon";

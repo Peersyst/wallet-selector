@@ -1,4 +1,4 @@
-# @near-wallet-selector/modal-ui-js
+# @peersyst/ws-modal-ui-js
 
 This is the Modal UI package for NEAR Wallet Selector.
 
@@ -8,18 +8,18 @@ The easiest way to use this package is to install it from the NPM registry:
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/modal-ui-js
+yarn add @peersyst/ws-modal-ui-js
 
 # Using NPM.
-npm install @near-wallet-selector/modal-ui-js
+npm install @peersyst/ws-modal-ui-js
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupModal } from "@near-wallet-selector/modal-ui-js";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupModal } from "@peersyst/ws-modal-ui-js";
+import { setupMyNearWallet } from "@peersyst/ws-my-near-wallet";
 
 const selector = await setupWalletSelector({
   network: "testnet",
@@ -48,14 +48,14 @@ Import modal css styles:
 
 ```css
 /* Add import in the main css file */
-@import "~@near-wallet-selector/modal-ui-js/styles.css";
+@import "~@peersyst/ws-modal-ui-js/styles.css";
 ```
 
 ### React & Vue
 
 ```ts
 // Add import in the main component
-import "@near-wallet-selector/modal-ui-js/styles.css";
+import "@peersyst/ws-modal-ui-js/styles.css";
 ```
 
 These are the available css variables:

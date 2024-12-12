@@ -4,7 +4,7 @@ import { mockWallet } from "../../../core/src/lib/testUtils";
 
 import type { MockWalletDependencies } from "../../../core/src/lib/testUtils";
 import { setupNarwallets } from "./narwallets";
-import type { InjectedWallet } from "@near-wallet-selector/core";
+import type { InjectedWallet } from "@peersyst/ws-core";
 
 const accountId = "test-account.testnet";
 const transactions = [

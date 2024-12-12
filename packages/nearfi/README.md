@@ -1,4 +1,4 @@
-# @near-wallet-selector/nearfi
+# @peersyst/ws-nearfi
 
 This is the [NearFi wallet](https://nearfi.finance) package for NEAR Wallet Selector.
 
@@ -16,17 +16,17 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/nearfi
+yarn add @peersyst/ws-nearfi
 
 # Using NPM.
-npm install @near-wallet-selector/nearfi
+npm install @peersyst/ws-nearfi
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupNearFi } from "@peersyst/ws-nearfi";
 
 // NearFi for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const nearFi = setupNearFi({
@@ -52,8 +52,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import nearfiIconUrl from "@near-wallet-selector/nearfi/assets/nearfi-icon.png";
+import { setupNearFi } from "@peersyst/ws-nearfi";
+import nearfiIconUrl from "@peersyst/ws-nearfi/assets/nearfi-icon.png";
 
 const nearfi = setupNearFi({
   iconUrl: nearfiIconUrl

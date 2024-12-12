@@ -8,8 +8,8 @@ import type {
   FunctionCallAction,
   Optional,
   Account,
-} from "@near-wallet-selector/core";
-import { waitFor } from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
+import { waitFor } from "@peersyst/ws-core";
 import type { InjectedNearFi } from "./injected-nearfi";
 import icon from "./icon";
 

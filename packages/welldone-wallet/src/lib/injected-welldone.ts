@@ -1,4 +1,4 @@
-import type { Action } from "@near-wallet-selector/core";
+import type { Action } from "@peersyst/ws-core";
 
 export interface WelldoneWalletParams {
   iconUrl?: string;

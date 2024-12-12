@@ -1,4 +1,4 @@
-# @near-wallet-selector/account-export
+# @peersyst/ws-account-export
 
 This is the Account Export Selector UI package for NEAR Wallet Selector.
 
@@ -8,18 +8,18 @@ The easiest way to use this package is to install it from the NPM registry:
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/account-export
+yarn add @peersyst/ws-account-export
 
 # Using NPM.
-npm install @near-wallet-selector/account-export
+npm install @peersyst/ws-account-export
 ```
 
 Then use it in your wallet:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupExportSelectorModal } from "@near-wallet-selector/account-export";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupExportSelectorModal } from "@peersyst/ws-account-export";
+import { setupMyNearWallet } from "@peersyst/ws-my-near-wallet";
 
 const selector = await setupWalletSelector({
   network: "testnet",
@@ -46,12 +46,12 @@ modal.show();
 - `onComplete` (`({ accounts: Array<string>, walletName: string }) => void`): Triggers when the user completes the flow. By default it is not set.
 
 ### Supported Wallets
- - [Nightly Wallet](https://github.com/near/wallet-selector/blob/main/packages/nightly/src/lib/nightly.ts)
- - [Meteor Wallet](https://github.com/near/wallet-selector/blob/main/packages/meteor-wallet/src/lib/meteor-wallet.ts)
- - [Welldone Wallet](https://github.com/near/wallet-selector/blob/main/packages/welldone-wallet/src/lib/welldone.ts)
- - [Here Wallet](https://github.com/near/wallet-selector/blob/main/packages/here-wallet/src/lib/selector.ts)
- - [My Near Wallet](https://github.com/near/wallet-selector/blob/main/packages/my-near-wallet/src/lib/my-near-wallet.ts)
- - [Sender Wallet](https://github.com/near/wallet-selector/blob/main/packages/sender/src/lib/sender.ts)
+ - [Nightly Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/nightly/src/lib/nightly.ts)
+ - [Meteor Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/meteor-wallet/src/lib/meteor-wallet.ts)
+ - [Welldone Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/welldone-wallet/src/lib/welldone.ts)
+ - [Here Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/here-wallet/src/lib/selector.ts)
+ - [My Near Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/my-near-wallet/src/lib/my-near-wallet.ts)
+ - [Sender Wallet](https://github.com/Peersyst/wallet-selector/blob/main/packages/sender/src/lib/sender.ts)
 
 ## Styles & Customizing CSS
 
@@ -59,8 +59,8 @@ modal.show();
 
 ```ts
 // Add import in the main component
-import "@near-wallet-selector/modal-ui/styles.css";
-import "@near-wallet-selector/account-export/styles.css";
+import "@peersyst/ws-modal-ui/styles.css";
+import "@peersyst/ws-account-export/styles.css";
 ```
 
 These are the available css variables:

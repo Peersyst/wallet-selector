@@ -1,6 +1,6 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 import { connectToWallet } from "../render-modal";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { CloseIcon } from "./icons/CloseIcon";
 import { ConnectionErrorIcon } from "./icons/ConnectionErrorIcon";
 

@@ -2,10 +2,10 @@ import type {
   InjectedWallet,
   ModuleState,
   BrowserWallet,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import { modalState } from "../modal";
 import { renderWhatIsAWallet } from "./WhatIsAWallet";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { BackArrowIcon } from "./icons/BackArrowIcon";
 import { CloseIcon } from "./icons/CloseIcon";
 import { QRIcon } from "./icons/QRIcon";

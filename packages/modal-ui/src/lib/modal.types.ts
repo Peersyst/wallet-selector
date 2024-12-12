@@ -1,4 +1,4 @@
-import type { Subscription } from "@near-wallet-selector/core";
+import type { Subscription } from "@peersyst/ws-core";
 
 export type Theme = "dark" | "light" | "auto";
 

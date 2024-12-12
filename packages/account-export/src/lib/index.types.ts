@@ -1,7 +1,4 @@
-import type {
-  AccountImportData,
-  ModuleState,
-} from "@near-wallet-selector/core";
+import type { AccountImportData, ModuleState } from "@peersyst/ws-core";
 
 export type Theme = "dark" | "light" | "auto";
 

@@ -7,7 +7,7 @@ import type {
   WalletSelector,
   AccountImportData,
   InjectedWalletMetadata,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
 import * as nearAPI from "near-api-js";
 import type {

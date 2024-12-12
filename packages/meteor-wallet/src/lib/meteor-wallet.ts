@@ -4,7 +4,7 @@ import type {
   Network,
   WalletBehaviourFactory,
   WalletModuleFactory,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import type {
   MeteorWalletParams_Injected,
   MeteorWalletState,

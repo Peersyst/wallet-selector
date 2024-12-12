@@ -1,4 +1,4 @@
-# @near-wallet-selector/neth
+# @peersyst/ws-neth
 
 This is the [NETH](https://neth.app) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/neth
+yarn add @peersyst/ws-neth
 
 # Using NPM.
-npm install @near-wallet-selector/neth
+npm install @peersyst/ws-neth
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupNeth } from "@near-wallet-selector/neth";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupNeth } from "@peersyst/ws-neth";
 
 // NETH for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const neth = setupNearSnap({
@@ -51,8 +51,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupNeth } from "@near-wallet-selector/neth";
-import nethWalletIcon from "@near-wallet-selector/neth/assets/neth-icon.png";
+import { setupNeth } from "@peersyst/ws-neth";
+import nethWalletIcon from "@peersyst/ws-neth/assets/neth-icon.png";
 
 const neth = setupNeth({
   iconUrl: nethWalletIcon

@@ -1,4 +1,4 @@
-# @near-wallet-selector/wallet-utils
+# @peersyst/ws-wallet-utils
 
 This is the Wallet Utils package for NEAR Wallet Selector.
 
@@ -16,16 +16,16 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/wallet-utils
+yarn add @peersyst/ws-wallet-utils
 
 # Using NPM.
-npm install @near-wallet-selector/wallet-utils
+npm install @peersyst/ws-wallet-utils
 ```
 
 Then use it in your custom wallet integration:
 
 ```ts
-import { createAction, signTransactions } from "@near-wallet-selector/wallet-utils";
+import { createAction, signTransactions } from "@peersyst/ws-wallet-utils";
 
 const action = createAction({
   type: "Transfer",

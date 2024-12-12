@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import type { ModuleState, WalletSelector } from "@near-wallet-selector/core";
+import type { ModuleState, WalletSelector } from "@peersyst/ws-core";
 
 import type { ExportSelectorOptions, Theme, ModalRoute } from "../index.types";
 import { WalletList } from "./WalletList";
@@ -8,7 +8,7 @@ import { AlertMessage } from "./AlertMessage";
 import { WalletNotInstalled } from "./WalletNotInstalled";
 
 import { Home } from "./Home";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { ExportAccount } from "./ExportAccount";
 
 interface ExportSelectorProps {

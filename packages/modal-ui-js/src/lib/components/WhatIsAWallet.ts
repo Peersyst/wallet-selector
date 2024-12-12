@@ -1,5 +1,5 @@
 import { renderGetAWallet } from "./GetAWallet";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { CloseIcon } from "./icons/CloseIcon";
 import { KeyIcon } from "./icons/KeyIcon";
 import { FolderIcon } from "./icons/FolderIcon";

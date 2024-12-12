@@ -1,6 +1,6 @@
 {
   "name": "near-wallet-selector",
-  "version": "8.9.14",
+  "version": "8.9.18",
   "description": "NEAR Wallet Selector makes it easy for users to interact with your dApp by providing an abstraction over various wallets within the NEAR ecosystem",
   "keywords": [
     "near",
@@ -28,13 +28,13 @@
     "bitte-wallet",
     "okx-wallet"
   ],
-  "homepage": "https://github.com/near/wallet-selector#README",
+  "homepage": "https://github.com/Peersyst/wallet-selector#README",
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/Peersyst/wallet-selector/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/near/wallet-selector.git"
+    "url": "git+https://github.com/Peersyst/wallet-selector.git"
   },
   "license": "ISC",
   "author": "near",

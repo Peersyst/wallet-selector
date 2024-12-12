@@ -1,4 +1,4 @@
-# @near-wallet-selector/ramper-wallet
+# @peersyst/ws-ramper-wallet
 
 
 This is the [Ramper Wallet](https://docs.ramper.xyz/) package for NEAR Wallet Selector.
@@ -17,17 +17,17 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/ramper-wallet
+yarn add @peersyst/ws-ramper-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/ramper-wallet
+npm install @peersyst/ws-ramper-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupRamperWallet } from "@peersyst/ws-ramper-wallet";
 
 // Ramper for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const ramper = setupRamperWallet({
@@ -50,8 +50,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import ramperWalletIconUrl from "@near-wallet-selector/ramper-wallet/assets/ramper-wallet.png";
+import { setupRamperWallet } from "@peersyst/ws-ramper-wallet";
+import ramperWalletIconUrl from "@peersyst/ws-ramper-wallet/assets/ramper-wallet.png";
 
 const ramper = setupRamperWallet({
   iconUrl: ramperWalletIconUrl

@@ -2,7 +2,7 @@ import type {
   AccountImportData,
   SignedMessage,
   SignMessageParams,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import type {
   SignedTransaction as NearSignedTransaction,
   Transaction as NearTransaction,

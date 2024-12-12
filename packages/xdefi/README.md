@@ -1,4 +1,4 @@
-# @near-wallet-selector/xdefi
+# @peersyst/ws-xdefi
 
 This is the [XDEFI](https://www.xdefi.io/) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js@^1.0.0
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/xdefi
+yarn add @peersyst/ws-xdefi
 
 # Using NPM.
-npm install @near-wallet-selector/xdefi
+npm install @peersyst/ws-xdefi
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupXDEFI } from "@near-wallet-selector/xdefi";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupXDEFI } from "@peersyst/ws-xdefi";
 
 // XDEFI for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const xdefi = setupXDEFI({
@@ -48,8 +48,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupXDEFI } from "@near-wallet-selector/xdefi";
-import xdefiIconUrl from "@near-wallet-selector/xdefi/assets/xdefi-icon.png";
+import { setupXDEFI } from "@peersyst/ws-xdefi";
+import xdefiIconUrl from "@peersyst/ws-xdefi/assets/xdefi-icon.png";
 
 const xdefi = setupXDEFI({
   iconUrl: xdefiIconUrl

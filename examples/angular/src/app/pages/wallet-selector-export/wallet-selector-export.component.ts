@@ -1,28 +1,28 @@
 import type { OnInit } from "@angular/core";
-import type { AccountState, WalletSelector } from "@near-wallet-selector/core";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import type { WalletSelectorModal } from "@near-wallet-selector/account-export";
-import { setupSender } from "@near-wallet-selector/sender";
-import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
-import { setupXDEFI } from "@near-wallet-selector/xdefi";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupNightly } from "@near-wallet-selector/nightly";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import { setupNarwallets } from "@near-wallet-selector/narwallets";
-import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import { setupNeth } from "@near-wallet-selector/neth";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
+import type { AccountState, WalletSelector } from "@peersyst/ws-core";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import type { WalletSelectorModal } from "@peersyst/ws-account-export";
+import { setupSender } from "@peersyst/ws-sender";
+import { setupBitgetWallet } from "@peersyst/ws-bitget-wallet";
+import { setupXDEFI } from "@peersyst/ws-xdefi";
+import { setupMathWallet } from "@peersyst/ws-math-wallet";
+import { setupNightly } from "@peersyst/ws-nightly";
+import { setupMeteorWallet } from "@peersyst/ws-meteor-wallet";
+import { setupNarwallets } from "@peersyst/ws-narwallets";
+import { setupWelldoneWallet } from "@peersyst/ws-welldone-wallet";
+import { setupHereWallet } from "@peersyst/ws-here-wallet";
+import { setupCoin98Wallet } from "@peersyst/ws-coin98-wallet";
+import { setupNearFi } from "@peersyst/ws-nearfi";
+import { setupNeth } from "@peersyst/ws-neth";
+import { setupWalletConnect } from "@peersyst/ws-wallet-connect";
 import { Component } from "@angular/core";
-import { setupExportSelectorModal } from "@near-wallet-selector/account-export";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
+import { setupExportSelectorModal } from "@peersyst/ws-account-export";
+import { setupMyNearWallet } from "@peersyst/ws-my-near-wallet";
+import { setupRamperWallet } from "@peersyst/ws-ramper-wallet";
+import { setupNearMobileWallet } from "@peersyst/ws-near-mobile-wallet";
+import { setupLedger } from "@peersyst/ws-ledger";
+import { setupMintbaseWallet } from "@peersyst/ws-mintbase-wallet";
+import { setupBitteWallet } from "@peersyst/ws-bitte-wallet";
 import { CONTRACT_ID } from "../../../constants";
 
 declare global {
@@ -76,7 +76,7 @@ export class WalletSelectorExportComponent implements OnInit {
           metadata: {
             name: "NEAR Wallet Selector",
             description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
+            url: "https://github.com/Peersyst/wallet-selector",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
           },
         }),

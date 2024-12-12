@@ -1,8 +1,8 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 import { DEFAULT_DERIVATION_PATH, modalState } from "../modal";
 import { connectToWallet } from "../render-modal";
 import { renderSpecifyDerivationPath } from "./SpecifyDerivationPath";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { CloseIcon } from "./icons/CloseIcon";
 import { LedgerDeviceIcon } from "./icons/LedgerDeviceIcon";
 

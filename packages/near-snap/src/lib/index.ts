@@ -1,5 +1,5 @@
 import { isMobile } from "is-mobile";
-import type { WalletModuleFactory } from "@near-wallet-selector/core";
+import type { WalletModuleFactory } from "@peersyst/ws-core";
 import { initNearSnap, snap } from "./selector";
 import icon from "./icon";
 

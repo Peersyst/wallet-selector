@@ -1,4 +1,4 @@
-import type { WalletModuleFactory } from "@near-wallet-selector/core";
+import type { WalletModuleFactory } from "@peersyst/ws-core";
 import { initNearMobileWallet } from "./init.wallet";
 import icon from "./icon";
 import type {

@@ -3,7 +3,7 @@ import type {
   EventEmitterService,
   ModuleState,
   WalletSelector,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
 import type {
   ModalEvents,
@@ -22,7 +22,7 @@ import { WalletNotInstalled } from "./WalletNotInstalled";
 import { WalletHome } from "./WalletHome";
 import { WalletConnected } from "./WalletConnected";
 import { ScanQRCode } from "./ScanQRCode";
-import { translate, allowOnlyLanguage } from "@near-wallet-selector/core";
+import { translate, allowOnlyLanguage } from "@peersyst/ws-core";
 
 interface ModalProps {
   selector: WalletSelector;

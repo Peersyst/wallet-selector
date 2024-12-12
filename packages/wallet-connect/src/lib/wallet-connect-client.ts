@@ -6,10 +6,7 @@ import("@walletconnect/modal").then((module) => {
   WalletConnectModal = module.WalletConnectModal;
 });
 import type { SessionTypes } from "@walletconnect/types";
-import type {
-  EventEmitterService,
-  WalletEvents,
-} from "@near-wallet-selector/core";
+import type { EventEmitterService, WalletEvents } from "@peersyst/ws-core";
 
 class WalletConnectClient {
   private client: Client;

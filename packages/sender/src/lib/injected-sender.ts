@@ -6,7 +6,7 @@ import type {
   AccountImportData,
   SignedMessage,
   SignMessageParams,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
 export interface AccessKey {
   publicKey: {

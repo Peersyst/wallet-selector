@@ -1,4 +1,4 @@
-import type { Transaction } from "@near-wallet-selector/core";
+import type { Transaction } from "@peersyst/ws-core";
 import type { FinalExecutionOutcome } from "near-api-js/lib/providers";
 import type { PublicKey as NearPublicKey } from "near-api-js/lib/utils";
 

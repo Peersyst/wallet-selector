@@ -1,7 +1,7 @@
 import React from "react";
 import type { Root } from "react-dom/client";
 import { createRoot } from "react-dom/client";
-import type { WalletSelector } from "@near-wallet-selector/core";
+import type { WalletSelector } from "@peersyst/ws-core";
 
 import type { WalletSelectorModal, ExportSelectorOptions } from "./index.types";
 import { ExportSelector } from "./components/ExportSelector";

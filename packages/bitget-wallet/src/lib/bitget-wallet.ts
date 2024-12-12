@@ -6,8 +6,8 @@ import type {
   Transaction,
   Optional,
   Account,
-} from "@near-wallet-selector/core";
-import { waitFor } from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
+import { waitFor } from "@peersyst/ws-core";
 import type { InjectedBitgetWallet } from "./injected-bitget-wallet";
 import icon from "./icon";
 

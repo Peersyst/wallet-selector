@@ -6,10 +6,10 @@ import type {
   Account,
   Optional,
   Transaction,
-} from "@near-wallet-selector/core";
-import { getActiveAccount } from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
+import { getActiveAccount } from "@peersyst/ws-core";
 import type { InjectedCoin98 } from "./injected-coin98-wallet";
-import { signTransactions } from "@near-wallet-selector/wallet-utils";
+import { signTransactions } from "@peersyst/ws-wallet-utils";
 import type { FinalExecutionOutcome } from "near-api-js/lib/providers";
 import icon from "./icon";
 

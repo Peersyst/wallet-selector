@@ -3,8 +3,8 @@ import QRCode from "qrcode";
 import copy from "copy-to-clipboard";
 import { ModalHeader } from "./ModalHeader";
 import { CopyIcon } from "./icons/CopyIcon";
-import { translate } from "@near-wallet-selector/core";
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 
 interface ScanQRCodeProps {
   wallet: ModuleState<Wallet>;

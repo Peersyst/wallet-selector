@@ -3,7 +3,7 @@ import type {
   HardwareWalletAccount,
   ModuleState,
   Wallet,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import { renderConnectHardwareWallet } from "./components/ConnectHardwareWallet";
 import { renderLedgerAccountsOverviewList } from "./components/LedgerAccountsOverviewList";
 import { renderLedgerSelectAccount } from "./components/LedgerSelectAccount";
@@ -14,7 +14,7 @@ import { renderWalletNotInstalled } from "./components/WalletNotInstalled";
 import { modalState } from "./modal";
 import { renderWalletAccount } from "./components/WalletAccount";
 import { renderScanQRCode } from "./components/ScanQRCode";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { WarningIcon } from "./components/icons/WarningIcon";
 
 export type HardwareWalletAccountState = HardwareWalletAccount & {

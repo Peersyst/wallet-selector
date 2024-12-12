@@ -1,4 +1,4 @@
-import type { Transaction } from "@near-wallet-selector/core";
+import type { Transaction } from "@peersyst/ws-core";
 import { formatUnits } from "viem";
 import type { Chain } from "viem";
 import { DEFAULT_ACCESS_KEY_ALLOWANCE, RLP_EXECUTE } from "./utils";

@@ -1,4 +1,4 @@
-# @near-wallet-selector/meteor-wallet
+# @peersyst/ws-meteor-wallet
 
 This is the [Meteor Wallet](https://meteorwallet.app) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/meteor-wallet
+yarn add @peersyst/ws-meteor-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/meteor-wallet
+npm install @peersyst/ws-meteor-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupMeteorWallet } from "@peersyst/ws-meteor-wallet";
 
 // Meteor for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const meteorWallet = setupMeteorWallet({
@@ -48,8 +48,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import meteorIconUrl from "@near-wallet-selector/meteor-wallet/assets/meteor-icon.png";
+import { setupMeteorWallet } from "@peersyst/ws-meteor-wallet";
+import meteorIconUrl from "@peersyst/ws-meteor-wallet/assets/meteor-icon.png";
 
 const meteorWallet = setupMeteorWallet({
   iconUrl: meteorIconUrl

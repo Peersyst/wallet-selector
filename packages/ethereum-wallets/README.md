@@ -1,4 +1,4 @@
-# @near-wallet-selector/ethereum-wallets
+# @peersyst/ws-ethereum-wallets
 
 This is the Ethereum Wallets package for NEAR Wallet Selector.
 The package adds support for Ethereum wallets by creating Ethereum-compatible transactions from NEAR transaction inputs.
@@ -23,10 +23,10 @@ NEP-518 rpc relayer uses a FunctionCall access key to execute transactions on be
 
 ```bash
 # Using Yarn
-yarn add near-api-js @web3modal/wagmi wagmi viem @tanstack/react-query @near-wallet-selector/ethereum-wallets
+yarn add near-api-js @web3modal/wagmi wagmi viem @tanstack/react-query @peersyst/ws-ethereum-wallets
 
 # Using NPM.
-npm install near-api-js @web3modal/wagmi wagmi viem @tanstack/react-query @near-wallet-selector/ethereum-wallets
+npm install near-api-js @web3modal/wagmi wagmi viem @tanstack/react-query @peersyst/ws-ethereum-wallets
 ```
 
 Then use it in your App:
@@ -48,9 +48,9 @@ import type { Config } from "@wagmi/core";
 import type { Chain } from "@wagmi/core/chains";
 import { reconnect, http, createConfig } from "@wagmi/core";
 import { walletConnect, injected } from "@wagmi/connectors";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupModal } from "@near-wallet-selector/modal-ui";
-import { setupEthereumWallets } from "@near-wallet-selector/ethereum-wallets";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupModal } from "@peersyst/ws-modal-ui";
+import { setupEthereumWallets } from "@peersyst/ws-ethereum-wallets";
 
 // Mainnet
 const near: Chain = {

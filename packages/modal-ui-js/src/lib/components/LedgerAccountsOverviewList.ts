@@ -1,9 +1,9 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@peersyst/ws-core";
 import type { HardwareWalletAccountState } from "../render-modal";
 import { modalState } from "../modal";
 import { renderLedgerSelectAccount } from "./LedgerSelectAccount";
 import { renderWalletConnectionFailed } from "./WalletConnectionFailed";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { BackArrowIcon } from "./icons/BackArrowIcon";
 import { CloseIcon } from "./icons/CloseIcon";
 

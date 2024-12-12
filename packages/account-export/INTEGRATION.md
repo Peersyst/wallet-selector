@@ -1,4 +1,4 @@
-# @near-wallet-selector/account-export
+# @peersyst/ws-account-export
 
 ## Wallet Selector Integration
 

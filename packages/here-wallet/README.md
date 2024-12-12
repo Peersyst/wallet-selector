@@ -1,4 +1,4 @@
-# @near-wallet-selector/here-wallet
+# @peersyst/ws-here-wallet
 
 This is the [Here Wallet](https://herewallet.app/) package for NEAR Wallet Selector.
 
@@ -16,17 +16,17 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/here-wallet
+yarn add @peersyst/ws-here-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/here-wallet
+npm install @peersyst/ws-here-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupHereWallet } from "@peersyst/ws-here-wallet";
 
 // HERE Wallet for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const hereWallet = setupHereWallet({
@@ -82,8 +82,8 @@ if (isHereWallet(wallet)) {
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import HereWalletIconUrl from "@near-wallet-selector/here-wallet/assets/here-wallet-icon.png";
+import { setupHereWallet } from "@peersyst/ws-here-wallet";
+import HereWalletIconUrl from "@peersyst/ws-here-wallet/assets/here-wallet-icon.png";
 
 const hereWallet = setupHereWallet({ 
   iconUrl: HereWalletIconUrl 

@@ -14,9 +14,9 @@ import type {
   Account,
   SignMessageParams,
   SignedMessage,
-} from "@near-wallet-selector/core";
-import { getActiveAccount } from "@near-wallet-selector/core";
-import { createAction } from "@near-wallet-selector/wallet-utils";
+} from "@peersyst/ws-core";
+import { getActiveAccount } from "@peersyst/ws-core";
+import { createAction } from "@peersyst/ws-wallet-utils";
 
 import WalletConnectClient from "./wallet-connect-client";
 import icon from "./icon";

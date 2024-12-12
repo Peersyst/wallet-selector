@@ -1,5 +1,5 @@
 import type { providers } from "near-api-js";
-import type { AccountImportData, Action } from "@near-wallet-selector/core";
+import type { AccountImportData, Action } from "@peersyst/ws-core";
 
 export interface AccessKey {
   publicKey: {

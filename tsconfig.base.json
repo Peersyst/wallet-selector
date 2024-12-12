@@ -27,88 +27,88 @@
       "@near-js/keystores": [
         "node_modules/@near-js/keystores"
       ],
-      "@near-wallet-selector/account-export": [
+      "@peersyst/ws-account-export": [
         "packages/account-export/src/index.ts"
       ],
-      "@near-wallet-selector/arepa-wallet": [
+      "@peersyst/ws-arepa-wallet": [
         "packages/arepa-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/bitget-wallet": [
+      "@peersyst/ws-bitget-wallet": [
         "packages/bitget-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/coin98-wallet": [
+      "@peersyst/ws-coin98-wallet": [
         "packages/coin98-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/core": [
+      "@peersyst/ws-core": [
         "packages/core/src/index.ts"
       ],
-      "@near-wallet-selector/here-wallet": [
+      "@peersyst/ws-here-wallet": [
         "packages/here-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/ledger": [
+      "@peersyst/ws-ledger": [
         "packages/ledger/src/index.ts"
       ],
-      "@near-wallet-selector/math-wallet": [
+      "@peersyst/ws-math-wallet": [
         "packages/math-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/meteor-wallet": [
+      "@peersyst/ws-meteor-wallet": [
         "packages/meteor-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/modal-ui": [
+      "@peersyst/ws-modal-ui": [
         "dist/packages/modal-ui"
       ],
-      "@near-wallet-selector/modal-ui-js": [
+      "@peersyst/ws-modal-ui-js": [
         "packages/modal-ui-js/src/index.ts"
       ],
-      "@near-wallet-selector/my-near-wallet": [
+      "@peersyst/ws-my-near-wallet": [
         "packages/my-near-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/narwallets": [
+      "@peersyst/ws-narwallets": [
         "packages/narwallets/src/index.ts"
       ],
-      "@near-wallet-selector/near-snap": [
+      "@peersyst/ws-near-snap": [
         "packages/near-snap/src/index.ts"
       ],
-      "@near-wallet-selector/nearfi": [
+      "@peersyst/ws-nearfi": [
         "packages/nearfi/src/index.ts"
       ],
-      "@near-wallet-selector/neth": [
+      "@peersyst/ws-neth": [
         "packages/neth/src/index.ts"
       ],
-      "@near-wallet-selector/nightly": [
+      "@peersyst/ws-nightly": [
         "packages/nightly/src/index.ts"
       ],
-      "@near-wallet-selector/sender": [
+      "@peersyst/ws-sender": [
         "packages/sender/src/index.ts"
       ],
-      "@near-wallet-selector/wallet-connect": [
+      "@peersyst/ws-wallet-connect": [
         "packages/wallet-connect/src/index.ts"
       ],
-      "@near-wallet-selector/wallet-utils": [
+      "@peersyst/ws-wallet-utils": [
         "packages/wallet-utils/src/index.ts"
       ],
-      "@near-wallet-selector/welldone-wallet": [
+      "@peersyst/ws-welldone-wallet": [
         "packages/welldone-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/ramper-wallet": [
+      "@peersyst/ws-ramper-wallet": [
         "packages/ramper-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/xdefi": [
+      "@peersyst/ws-xdefi": [
         "packages/xdefi/src/index.ts"
       ],
-      "@near-wallet-selector/near-mobile-wallet": [
+      "@peersyst/ws-near-mobile-wallet": [
         "packages/near-mobile-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/mintbase-wallet": [
+      "@peersyst/ws-mintbase-wallet": [
         "packages/mintbase-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/bitte-wallet": [
+      "@peersyst/ws-bitte-wallet": [
         "packages/bitte-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/okx-wallet": [
+      "@peersyst/ws-okx-wallet": [
         "packages/okx-wallet/src/index.ts"
       ],
-      "@near-wallet-selector/ethereum-wallets": [
+      "@peersyst/ws-ethereum-wallets": [
         "packages/ethereum-wallets/src/index.ts"
       ],
       "crypto": [

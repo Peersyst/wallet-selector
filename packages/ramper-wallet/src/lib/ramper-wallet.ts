@@ -5,9 +5,9 @@ import type {
   Transaction,
   Account,
   Optional,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
-import { createAction } from "@near-wallet-selector/wallet-utils";
+import { createAction } from "@peersyst/ws-wallet-utils";
 
 import { isMobile } from "is-mobile";
 import type { InjectedRamperWallet } from "./ramper-wallet.types";

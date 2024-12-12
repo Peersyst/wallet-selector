@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/neth",
-  "version": "8.9.14",
+  "name": "@peersyst/ws-neth",
+  "version": "8.9.18",
   "description": "Control NEAR accounts with ETH accounts",
   "author": "mattlockyer",
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/Peersyst/wallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/Peersyst/wallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/neth"
+  "homepage": "https://github.com/Peersyst/wallet-selector/tree/main/packages/neth"
 }

@@ -117,11 +117,11 @@ export type WalletSelectorAction =
 
 export interface ReadOnlyStore {
   /**
-   * Retrieve the current state. You can find more information on `WalletSelectorState` {@link https://github.com/near/wallet-selector/blob/main/packages/core/docs/api/state.md | here}.
+   * Retrieve the current state. You can find more information on `WalletSelectorState` {@link https://github.com/Peersyst/wallet-selector/blob/main/packages/core/docs/api/state.md | here}.
    */
   getState(): WalletSelectorState;
   /**
-   * Subscribe to state changes using the (RxJS) Observable pattern. You can find more information on `WalletSelectorState` {@link https://github.com/near/wallet-selector/blob/main/packages/core/docs/api/state.md | here}.
+   * Subscribe to state changes using the (RxJS) Observable pattern. You can find more information on `WalletSelectorState` {@link https://github.com/Peersyst/wallet-selector/blob/main/packages/core/docs/api/state.md | here}.
    */
   observable: Observable<WalletSelectorState>;
 }

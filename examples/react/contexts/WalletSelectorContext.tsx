@@ -1,33 +1,33 @@
-import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
+import { setupCoin98Wallet } from "@peersyst/ws-coin98-wallet";
 import type {
   AccountState,
   InjectedWalletBehaviour,
   WalletSelector,
-} from "@near-wallet-selector/core";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import { setupNarwallets } from "@near-wallet-selector/narwallets";
-import type { WalletSelectorModal } from "@near-wallet-selector/modal-ui";
-import { setupModal } from "@near-wallet-selector/modal-ui";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import { setupNightly } from "@near-wallet-selector/nightly";
-import { setupSender } from "@near-wallet-selector/sender";
-import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
-import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
-import { setupNearSnap } from "@near-wallet-selector/near-snap";
-import { setupNeth } from "@near-wallet-selector/neth";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupXDEFI } from "@near-wallet-selector/xdefi";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
-import { setupOKXWallet } from "@near-wallet-selector/okx-wallet";
-import { setupEthereumWallets } from "@near-wallet-selector/ethereum-wallets";
+} from "@peersyst/ws-core";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupHereWallet } from "@peersyst/ws-here-wallet";
+import { setupMathWallet } from "@peersyst/ws-math-wallet";
+import { setupMeteorWallet } from "@peersyst/ws-meteor-wallet";
+import { setupNarwallets } from "@peersyst/ws-narwallets";
+import type { WalletSelectorModal } from "@peersyst/ws-modal-ui";
+import { setupModal } from "@peersyst/ws-modal-ui";
+import { setupNearFi } from "@peersyst/ws-nearfi";
+import { setupNightly } from "@peersyst/ws-nightly";
+import { setupSender } from "@peersyst/ws-sender";
+import { setupBitgetWallet } from "@peersyst/ws-bitget-wallet";
+import { setupWalletConnect } from "@peersyst/ws-wallet-connect";
+import { setupWelldoneWallet } from "@peersyst/ws-welldone-wallet";
+import { setupNearSnap } from "@peersyst/ws-near-snap";
+import { setupNeth } from "@peersyst/ws-neth";
+import { setupMyNearWallet } from "@peersyst/ws-my-near-wallet";
+import { setupLedger } from "@peersyst/ws-ledger";
+import { setupXDEFI } from "@peersyst/ws-xdefi";
+import { setupRamperWallet } from "@peersyst/ws-ramper-wallet";
+import { setupNearMobileWallet } from "@peersyst/ws-near-mobile-wallet";
+import { setupMintbaseWallet } from "@peersyst/ws-mintbase-wallet";
+import { setupBitteWallet } from "@peersyst/ws-bitte-wallet";
+import { setupOKXWallet } from "@peersyst/ws-okx-wallet";
+import { setupEthereumWallets } from "@peersyst/ws-ethereum-wallets";
 
 import type { ReactNode } from "react";
 import React, {
@@ -180,7 +180,7 @@ export const WalletSelectorContextProvider: React.FC<{
           metadata: {
             name: "NEAR Wallet Selector",
             description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
+            url: "https://github.com/Peersyst/wallet-selector",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
           },
         }),
@@ -197,7 +197,7 @@ export const WalletSelectorContextProvider: React.FC<{
     setAccounts(state.accounts);
 
     // this is added for debugging purpose only
-    // for more information (https://github.com/near/wallet-selector/pull/764#issuecomment-1498073367)
+    // for more information (https://github.com/Peersyst/wallet-selector/pull/764#issuecomment-1498073367)
     window.selector = _selector;
     window.modal = _modal;
 

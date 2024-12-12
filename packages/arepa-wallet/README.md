@@ -1,4 +1,4 @@
-# @near-wallet-selector/my-near-wallet
+# @peersyst/ws-my-near-wallet
 
 This is the [Arepa Wallet](https://mi.arepa.digital/) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/arepa-wallet
+yarn add @peersyst/ws-arepa-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/arepa-wallet
+npm install @peersyst/ws-arepa-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupArepaWallet } from "@near-wallet-selector/arepa-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupArepaWallet } from "@peersyst/ws-arepa-wallet";
 
 // My NEAR Wallet for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const arepaWallet = setupArepaWallet({
@@ -52,8 +52,8 @@ const selector = await setupWalletSelector({
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupMyNearWallet } from "@near-wallet-selector/arepa-wallet";
-import arepaWalletIconUrl from "@near-wallet-selector/arepa-wallet/assets/arepa-wallet-icon.png";
+import { setupMyNearWallet } from "@peersyst/ws-arepa-wallet";
+import arepaWalletIconUrl from "@peersyst/ws-arepa-wallet/assets/arepa-wallet-icon.png";
 
 const arepaWallet = setupArepaWallet({
   iconUrl: arepaWalletIconUrl

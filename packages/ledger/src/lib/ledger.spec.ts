@@ -33,9 +33,9 @@ const createLedgerWallet = async () => {
       ),
   });
 
-  jest.mock("@near-wallet-selector/core", () => {
+  jest.mock("@peersyst/ws-core", () => {
     return {
-      ...jest.requireActual("@near-wallet-selector/core"),
+      ...jest.requireActual("@peersyst/ws-core"),
       verifySignature: jest.fn().mockReturnValue(true),
     };
   });

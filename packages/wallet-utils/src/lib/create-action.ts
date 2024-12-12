@@ -1,5 +1,5 @@
 import * as nearAPI from "near-api-js";
-import type { AddKeyPermission, Action } from "@near-wallet-selector/core";
+import type { AddKeyPermission, Action } from "@peersyst/ws-core";
 const { transactions, utils } = nearAPI;
 
 const getAccessKey = (permission: AddKeyPermission) => {

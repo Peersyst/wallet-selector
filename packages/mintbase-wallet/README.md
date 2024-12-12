@@ -1,4 +1,4 @@
-# @near-wallet-selector/mintbase-wallet
+# @peersyst/ws-mintbase-wallet
 
 This is the [Mintbase Wallet](https://wallet.mintbase.xyz) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/mintbase-wallet
+yarn add @peersyst/ws-mintbase-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/mintbase-wallet
+npm install @peersyst/ws-mintbase-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupMintbaseWallet } from "@peersyst/ws-mintbase-wallet";
 
 const mintbaseWallet =  setupMintbaseWallet({
   networkId: 'mainnet',

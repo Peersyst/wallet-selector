@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/modal-ui",
-  "version": "8.9.14",
+  "name": "@peersyst/ws-modal-ui",
+  "version": "8.9.18",
   "description": "Modal UI package for NEAR wallet Selector",
   "keywords": [
     "near",
@@ -13,10 +13,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/Peersyst/wallet-selector.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/Peersyst/wallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/modal-ui"
+  "homepage": "https://github.com/Peersyst/wallet-selector/tree/main/packages/modal-ui"
 }

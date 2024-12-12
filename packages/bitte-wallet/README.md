@@ -1,4 +1,4 @@
-# @near-wallet-selector/bitte-wallet
+# @peersyst/ws-bitte-wallet
 
 This is the [Bitte Wallet](https://wallet.bitte.ai) package for NEAR Wallet Selector.
 
@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/bitte-wallet
+yarn add @peersyst/ws-bitte-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/bitte-wallet
+npm install @peersyst/ws-bitte-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupBitteWallet } from "@peersyst/ws-bitte-wallet";
 
 const bitteWallet =  setupBitteWallet({
   networkId: 'mainnet',

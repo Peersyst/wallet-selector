@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { generateSecretKey } from "../helpers";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@peersyst/ws-core";
 import { ModalHeader } from "./ModalHeader";
 import { ClickToCopy } from "./ClickToCopy";
 

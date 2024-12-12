@@ -11,12 +11,12 @@ import type {
   Account,
   SignMessageParams,
   SignedMessage,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import {
   isCurrentBrowserSupported,
   serializeNep413,
   waitFor,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import type {
   ViewAccessKeyParams,
   WalletProvider,
@@ -24,7 +24,7 @@ import type {
   WelldoneWalletState,
 } from "./injected-welldone";
 import icon from "./icon";
-import { signTransactions } from "@near-wallet-selector/wallet-utils";
+import { signTransactions } from "@peersyst/ws-wallet-utils";
 import isMobile from "is-mobile";
 
 export const STORAGE_ACCOUNT = "account";

@@ -7,27 +7,27 @@ import React, {
   useMemo,
 } from "react";
 import { map, distinctUntilChanged } from "rxjs";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import type { WalletSelector, AccountState } from "@near-wallet-selector/core";
-import { setupExportSelectorModal } from "@near-wallet-selector/account-export";
-import type { WalletSelectorModal } from "@near-wallet-selector/account-export";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import { setupSender } from "@near-wallet-selector/sender";
-import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupNightly } from "@near-wallet-selector/nightly";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
-import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import type { WalletSelector, AccountState } from "@peersyst/ws-core";
+import { setupExportSelectorModal } from "@peersyst/ws-account-export";
+import type { WalletSelectorModal } from "@peersyst/ws-account-export";
+import { setupHereWallet } from "@peersyst/ws-here-wallet";
+import { setupSender } from "@peersyst/ws-sender";
+import { setupBitgetWallet } from "@peersyst/ws-bitget-wallet";
+import { setupMathWallet } from "@peersyst/ws-math-wallet";
+import { setupNightly } from "@peersyst/ws-nightly";
+import { setupMeteorWallet } from "@peersyst/ws-meteor-wallet";
+import { setupWelldoneWallet } from "@peersyst/ws-welldone-wallet";
+import { setupNearFi } from "@peersyst/ws-nearfi";
+import { setupWalletConnect } from "@peersyst/ws-wallet-connect";
+import { setupCoin98Wallet } from "@peersyst/ws-coin98-wallet";
 import { Loading } from "../components/Loading";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
+import { setupMyNearWallet } from "@peersyst/ws-my-near-wallet";
+import { setupLedger } from "@peersyst/ws-ledger";
+import { setupRamperWallet } from "@peersyst/ws-ramper-wallet";
+import { setupNearMobileWallet } from "@peersyst/ws-near-mobile-wallet";
+import { setupMintbaseWallet } from "@peersyst/ws-mintbase-wallet";
+import { setupBitteWallet } from "@peersyst/ws-bitte-wallet";
 import { CONTRACT_ID } from "../constants";
 
 declare global {
@@ -79,7 +79,7 @@ export const ExportAccountSelectorContextProvider: React.FC<{
           metadata: {
             name: "NEAR Wallet Selector",
             description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
+            url: "https://github.com/Peersyst/wallet-selector",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
           },
         }),
@@ -102,7 +102,7 @@ export const ExportAccountSelectorContextProvider: React.FC<{
     setAccounts(state.accounts);
 
     // this is added for debugging purpose only
-    // for more information (https://github.com/near/wallet-selector/pull/764#issuecomment-1498073367)
+    // for more information (https://github.com/Peersyst/wallet-selector/pull/764#issuecomment-1498073367)
     window.importSelector = _selector;
     window.exportModal = _modal;
 

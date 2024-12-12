@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
-import type {
-  WalletSelector,
-  ModuleState,
-  Wallet,
-} from "@near-wallet-selector/core";
+import type { WalletSelector, ModuleState, Wallet } from "@peersyst/ws-core";
 import { WarningIcon } from "./icons/WarningIcon";
 
 interface WalletOptionsProps {

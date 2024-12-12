@@ -8,9 +8,9 @@ import type {
   SignedMessage,
   SignMessageParams,
   Transaction,
-} from "@near-wallet-selector/core";
-import { verifyFullKeyBelongsToUser } from "@near-wallet-selector/core";
-import { verifySignature } from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
+import { verifyFullKeyBelongsToUser } from "@peersyst/ws-core";
+import { verifySignature } from "@peersyst/ws-core";
 
 import type { Account, Message } from "../interfaces";
 import { useWalletSelector } from "../contexts/WalletSelectorContext";

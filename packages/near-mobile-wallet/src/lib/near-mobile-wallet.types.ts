@@ -1,7 +1,4 @@
-import type {
-  InjectedWallet,
-  WalletBehaviourFactory,
-} from "@near-wallet-selector/core";
+import type { InjectedWallet, WalletBehaviourFactory } from "@peersyst/ws-core";
 
 import type {
   NearMobileWalletProtocol,

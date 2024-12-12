@@ -16,8 +16,8 @@ import {
   type Account,
   type InjectedWallet,
   type Optional,
-} from "@near-wallet-selector/core";
-import { signTransactions } from "@near-wallet-selector/wallet-utils";
+} from "@peersyst/ws-core";
+import { signTransactions } from "@peersyst/ws-wallet-utils";
 import {
   type WriteContractParameters,
   type GetAccountReturnType,

@@ -1,5 +1,5 @@
 import { isMobile } from "is-mobile";
-import { signTransactions } from "@near-wallet-selector/wallet-utils";
+import { signTransactions } from "@peersyst/ws-wallet-utils";
 import type {
   WalletModuleFactory,
   WalletBehaviourFactory,
@@ -10,12 +10,12 @@ import type {
   Optional,
   SignMessageParams,
   SignedMessage,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 import {
   getActiveAccount,
   verifyFullKeyBelongsToUser,
   verifySignature,
-} from "@near-wallet-selector/core";
+} from "@peersyst/ws-core";
 
 import { isLedgerSupported, LedgerClient } from "./ledger-client";
 import type { Subscription } from "./ledger-client";
@@ -24,6 +24,7 @@ import * as nearAPI from "near-api-js";
 import type { FinalExecutionOutcome } from "near-api-js/lib/providers";
 import icon from "./icon";
 import { serializeLedgerNEP413Payload } from "./nep413/ledger-payload";
+import { broadcastTx } from "./utils/broadcast-tx";
 
 interface LedgerAccount extends Account {
   derivationPath: string;
@@ -251,7 +252,12 @@ const Ledger: WalletBehaviourFactory<HardwareWallet> = async ({
         options.network
       );
 
-      return provider.sendTransaction(signedTransactions[0]);
+      logger.log("signed transaction", { signedTransactions });
+
+      return broadcastTx({
+        network: options.network,
+        signedTransaction: signedTransactions[0],
+      });
     },
 
     async signAndSendTransactions({ transactions }) {
@@ -273,7 +279,12 @@ const Ledger: WalletBehaviourFactory<HardwareWallet> = async ({
       const results: Array<FinalExecutionOutcome> = [];
 
       for (let i = 0; i < signedTransactions.length; i++) {
-        results.push(await provider.sendTransaction(signedTransactions[i]));
+        results.push(
+          await broadcastTx({
+            network: options.network,
+            signedTransaction: signedTransactions[i],
+          })
+        );
       }
 
       return results;

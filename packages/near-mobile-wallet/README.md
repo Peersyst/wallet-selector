@@ -1,4 +1,4 @@
-# @near-wallet-selector/near-mobile-wallet
+# @peersyst/ws-near-mobile-wallet
 
 This is the [Near Mobile Wallet](https://nearmobile.app/) package for NEAR Wallet Selector.
 
@@ -16,17 +16,17 @@ npm install near-api-js
 
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/near-mobile-wallet
+yarn add @peersyst/ws-near-mobile-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/near-mobile-wallet
+npm install @peersyst/ws-near-mobile-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
+import { setupWalletSelector } from "@peersyst/ws-core";
+import { setupNearMobileWallet } from "@peersyst/ws-near-mobile-wallet";
 
 const selector = await setupWalletSelector({
   network: "testnet",

@@ -1,9 +1,6 @@
 import type { HereInitializeOptions } from "@here-wallet/core";
 import { waitInjectedHereWallet } from "@here-wallet/core";
-import type {
-  WalletModuleFactory,
-  InjectedWallet,
-} from "@near-wallet-selector/core";
+import type { WalletModuleFactory, InjectedWallet } from "@peersyst/ws-core";
 import { initHereWallet } from "./selector";
 import icon from "./icon";
 

@@ -1,5 +1,5 @@
-import type { Wallet } from "@near-wallet-selector/core";
-import type { ModuleState } from "@near-wallet-selector/core";
+import type { Wallet } from "@peersyst/ws-core";
+import type { ModuleState } from "@peersyst/ws-core";
 
 type AlertMessageModalRouteParams = {
   module: ModuleState;

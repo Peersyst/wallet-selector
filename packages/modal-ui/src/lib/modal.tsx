@@ -1,11 +1,11 @@
 import React from "react";
 import type { Root } from "react-dom/client";
 import { createRoot } from "react-dom/client";
-import type { WalletSelector } from "@near-wallet-selector/core";
+import type { WalletSelector } from "@peersyst/ws-core";
 
 import type { WalletSelectorModal, ModalOptions } from "./modal.types";
 import { Modal } from "./components/Modal";
-import { EventEmitter } from "@near-wallet-selector/core";
+import { EventEmitter } from "@peersyst/ws-core";
 import type { ModalEvents } from "./modal.types";
 
 const MODAL_ELEMENT_ID = "near-wallet-selector-modal";
